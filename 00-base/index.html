@@ -1,0 +1,35 @@
+<html>
+  <head>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="bower_components/angular-gettext/dist/angular-gettext.min.js"></script>
+  <script type="text/javascript">
+      var app = angular.module('myApp', [], function () {
+      });
+      
+      app.controller('ArticleCtrl', function ($scope){
+            $scope.articleUrl = "http://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili";
+      });
+  </script>
+    
+  
+  <body ng-app="myApp">
+    <div ng-controller="ArticleCtrl" class="content">
+        <h1>Manu Ginóbili</h1>
+        <p><small><a ng-href='{{articleUrl}}'>From Wikipedia, the free encyclopedia</a></small></p>
+        <p>Emanuel David "Manu" Ginóbili (born 28 July 1977) is an Argentine professional basketball player. Coming from a family of professional basketball players, he is a member of the Argentine men's national basketball team and the San Antonio Spurs in the National Basketball Association (NBA). Hailed as one of the finest European-based players to grace the NBA, he plays a high-tempo and intense game. He is one of only two players, along with Bill Bradley, to have won a Euroleague title, an NBA championship, and an Olympic gold medal.<br/>
+        <small><a ng-href='{{articleUrl}}'>Read More</a></small>
+        </p>        
+        <h2>Comment</h2>
+        <textarea ng-model="comment" class="comment-box" rows="5"></textarea>
+        <div>
+        <button ng-click"send()">Send</button>
+        <button ng-click"clear()">Clear</button>
+        </div>
+        <h2>Preview</h2>
+        <p><i>{{ comment }}</i></p>
+    </div>
+  </body>
+  
+</html>

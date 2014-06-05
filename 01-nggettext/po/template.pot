@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.html
+msgid "Clear"
+msgstr ""
+
+#: index.html
+msgid "Comment"
+msgstr ""
+
+#: index.html
+msgid "Emanuel David \"Manu\" Ginóbili (born 28 July 1977) is an Argentine professional basketball player. Coming from a family of professional basketball players, he is a member of the Argentine men's national basketball team and the San Antonio Spurs in the National Basketball Association (NBA). Hailed as one of the finest European-based players to grace the NBA, he plays a high-tempo and intense game. He is one of only two players, along with Bill Bradley, to have won a Euroleague title, an NBA championship, and an Olympic gold medal."
+msgstr ""
+
+#: index.html
+msgid "From Wikipedia, the free encyclopedia"
+msgstr ""
+
+#: index.html
+msgid "Manu Ginobili"
+msgstr ""
+
+#: index.html
+msgid "Preview"
+msgstr ""
+
+#: index.html
+msgid "Read More"
+msgstr ""
+
+#: index.html
+msgid "Send"
+msgstr ""
